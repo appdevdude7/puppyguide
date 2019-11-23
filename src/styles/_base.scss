@@ -4,6 +4,9 @@
   body {
     background-color: $light-gray;
     font-family: $site-font;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
   a {
     color: #0056b3;
@@ -11,9 +14,6 @@
       color: #007bff;
       text-decoration: none;
     }
-  }
-  body {
-    font-family: $site-font;
   }
   h1 {
     margin-bottom: 20px;
